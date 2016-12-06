@@ -10,7 +10,7 @@ import java.util.Date;
  */
 @RestController
 public class HelloController {
-    @RequestMapping(name = "hello")
+    @RequestMapping("/")
     public String hello(){
         return "hello "+"now:"+new Date();
     }
